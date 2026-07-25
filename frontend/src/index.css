@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Anton', sans-serif;
+  --font-body: 'Work Sans', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --color-charcoal: #1B1B1B;
+  --color-charcoal-soft: #2A2622;
+  --color-paper: #FFF7E8;
+  --color-paper-dim: #F4EAD3;
+  --color-chili: #E1432B;
+  --color-chili-dark: #B8331F;
+  --color-mustard: #FFB627;
+  --color-mustard-dark: #E89A0C;
+  --color-basil: #3F6C51;
+  --color-ink: #241C15;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+::selection {
+  background: var(--color-mustard);
+  color: var(--color-ink);
+}
+
+/* checkerboard flag motif */
+.checker-strip {
+  height: 10px;
+  background-image:
+    linear-gradient(45deg, var(--color-charcoal) 25%, transparent 25%),
+    linear-gradient(-45deg, var(--color-charcoal) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, var(--color-charcoal) 75%),
+    linear-gradient(-45deg, transparent 75%, var(--color-charcoal) 75%);
+  background-size: 10px 10px;
+  background-position: 0 0, 0 5px, 5px -5px, -5px 0px;
+  background-color: var(--color-mustard);
+}
+
+/* torn ticket edge */
+.ticket-edge-top {
+  -webkit-mask-image: radial-gradient(circle at 8px 0, transparent 8px, black 8.5px);
+  mask-image: radial-gradient(circle at 8px 0, transparent 8px, black 8.5px);
+  -webkit-mask-size: 16px 8px;
+  mask-size: 16px 8px;
+  -webkit-mask-repeat: repeat-x;
+  mask-repeat: repeat-x;
+  -webkit-mask-position: top;
+  mask-position: top;
+}
+
+@keyframes steam {
+  0%, 100% { transform: translateY(0) scaleX(1); opacity: 0.35; }
+  50% { transform: translateY(-6px) scaleX(1.15); opacity: 0.7; }
+}
+.steam-line {
+  animation: steam 2.4s ease-in-out infinite;
+}
+
+@keyframes float-badge {
+  0%, 100% { transform: rotate(-3deg) translateY(0); }
+  50% { transform: rotate(-3deg) translateY(-4px); }
+}
+.float-badge {
+  animation: float-badge 3.5s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .steam-line, .float-badge {
+    animation: none !important;
+  }
+}
+
+/* Menu booklet */
+.booklet-shell {
+  width: 100%;
+  max-width: 420px;
+}
+
+.booklet-flipbook {
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.booklet-page {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border: 2px solid var(--color-charcoal);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.06);
+}
+
