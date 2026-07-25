@@ -15,19 +15,22 @@ Built with React, Node.js/Express, and MongoDB.
 
 ## 📸 Screenshots
 
-<!--
-  Add your screenshots to a `screenshots/` folder in the repo root, then
-  update the paths below to match your filenames. Recommended shots:
-  the ordering menu, the cart/ticket, order confirmation with QR, the
-  menu booklet, the admin dashboard, and the kitchen/orders view.
--->
+<img width="1912" height="862" alt="image" src="https://github.com/user-attachments/assets/83abdd25-94a5-4ceb-8a01-4f62bfcc88da" />
+<img width="1895" height="862" alt="image" src="https://github.com/user-attachments/assets/21f13e6a-fa77-41e3-be18-c9a5d187e53c" />
+<img width="1896" height="863" alt="image" src="https://github.com/user-attachments/assets/fb6caf50-a6f2-4f9d-96f2-ed47a06ff12c" />
+<img width="1895" height="861" alt="image" src="https://github.com/user-attachments/assets/8908ca6a-a2e0-42f6-bd0e-980f922247e1" />
+
 
 | | |
 |---|---|
-| ![Ordering menu] <img width="1896" height="862" alt="image" src="https://github.com/user-attachments/assets/12a8ed74-2949-4daf-bdcf-091e4c0a21f9" />
- | ![Cart / ticket](./screenshots/cart.png) |
-| ![Order confirmation](./screenshots/order-success.png) | ![Menu booklet](./screenshots/booklet.png) |
-| ![Admin dashboard](./screenshots/dashboard.png) | ![Kitchen / orders view](./screenshots/orders.png) |
+| Ordering menu <img width="1896" height="862" alt="image" src="https://github.com/user-attachments/assets/12a8ed74-2949-4daf-bdcf-091e4c0a21f9" />
+ | Cart / ticket <img width="1900" height="867" alt="image" src="https://github.com/user-attachments/assets/c5e6bf78-5ead-4fd4-940a-966ba6c23e80" />
+ |
+ Menu booklet <img width="1912" height="862" alt="image" src="https://github.com/user-attachments/assets/3713dcd3-7e82-4aa8-964a-bda444d210a3" />
+ |
+| Admin dashboard <img width="1896" height="867" alt="image" src="https://github.com/user-attachments/assets/72946f20-50c0-44dd-9fb7-3bd8e723ff9c" />
+ | Kitchen / orders view <img width="1896" height="862" alt="image" src="https://github.com/user-attachments/assets/7beb6759-1852-475c-979f-a35346cfcf6a" />
+ |
 
 ---
 
