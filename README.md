@@ -24,7 +24,8 @@ Built with React, Node.js/Express, and MongoDB.
 
 | | |
 |---|---|
-| ![Ordering menu](./screenshots/menu.png) | ![Cart / ticket](./screenshots/cart.png) |
+| ![Ordering menu] <img width="1896" height="862" alt="image" src="https://github.com/user-attachments/assets/12a8ed74-2949-4daf-bdcf-091e4c0a21f9" />
+ | ![Cart / ticket](./screenshots/cart.png) |
 | ![Order confirmation](./screenshots/order-success.png) | ![Menu booklet](./screenshots/booklet.png) |
 | ![Admin dashboard](./screenshots/dashboard.png) | ![Kitchen / orders view](./screenshots/orders.png) |
 
